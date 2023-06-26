@@ -1,0 +1,120 @@
+:root{
+  --primary:#182848;
+  --secondary:#4b6cb7;
+  --main:#fdbb2d;
+}
+.container {
+  max-width: 960px;
+}
+
+.site-header {
+  background-color:var(--primary);
+  -webkit-backdrop-filter: saturate(180%) blur(20px);
+  backdrop-filter: saturate(180%) blur(20px);
+}
+.site-header a {
+  color: #999;
+  transition: ease-in-out color .15s;
+}
+.site-header a:hover {
+  color: #fff;
+  text-decoration: none;
+}
+
+section.resume-section {
+  align-items: top;
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+}
+
+.product-device {
+  position: absolute;
+  right: 10%;
+  bottom: -30%;
+  width: 300px;
+  height: 540px;
+  background-color: #333;
+  border-radius: 21px;
+  -webkit-transform: rotate(30deg);
+  transform: rotate(30deg);
+}
+
+.product-device::before {
+  position: absolute;
+  top: 10%;
+  right: 10px;
+  bottom: 10%;
+  left: 10px;
+  content: "";
+  background-color: rgba(255, 255, 255, .1);
+  border-radius: 5px;
+}
+
+.product-device-2 {
+  top: -25%;
+  right: auto;
+  bottom: 0;
+  left: 5%;
+  background-color: #e5e5e5;
+}
+
+.border-top { border-top: 1px solid #e5e5e5; }
+.border-bottom { border-bottom: 1px solid #e5e5e5; }
+.box-shadow { box-shadow: 0 .25rem .75rem rgba(0, 0, 0, .05); }
+
+.flex-equal > * {
+  -ms-flex: 1;
+  -webkit-box-flex: 1;
+  flex: 1;
+}
+@media (min-width: 768px) {
+  .flex-md-equal > * {
+    -ms-flex: 1;
+    -webkit-box-flex: 1;
+    flex: 1;
+  }
+}
+
+.vl {
+  border-left: 2px solid grey;
+  height: 400px;
+  width: 10px;
+  margin: 0;
+  padding: 0;
+}
+.overflow-hidden { overflow: hidden; }
+
+.imgInline{
+  margin: auto;
+}
+.imgInline img{
+  height: 90%; 
+  width: auto;
+  border-radius: 10px;
+  /* margin: 0.5rem; */
+}
+.imgInline video{
+  /* width: 80%;
+  margin: 10%; */
+  width: 1200px;
+  border-radius: 20px;
+}
+.w-gallery{
+  width: 1200px;
+}
+.w-gallery img{
+  border-radius: 20px;
+}
+.display-5 {
+  font-size: 2rem;
+  font-weight: 300;
+  line-height: 1.2;
+}
+.w-m{
+  margin-left: 15%;
+  margin-right: 15%;
+}
+.v-m{
+  padding-top: 2rem;
+  padding-bottom: 3rem;
+}
