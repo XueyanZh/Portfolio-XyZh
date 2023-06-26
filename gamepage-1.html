@@ -43,8 +43,8 @@
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav ml-3">
                     <li class="nav-item"><a class="nav-link js-scroll-trigger" style="padding-left: 0;" href="./gamepage-3.html">Capstone</a></li>
-                    <li class="nav-item"><a class="nav-link js-scroll-trigger" style="padding-left: 0; color: #fff;" href="./gamepage-1.html">Horror Maze</a></li> 
-                    <li class="nav-item"><a class="nav-link js-scroll-trigger" style="padding-left: 0;" href="./gamepage-2.html">VR Puzzle Game</a></li>   
+                    <li class="nav-item"><a class="nav-link js-scroll-trigger" style="padding-left: 0; color: #fff;" href="./gamepage-1.html">Demos</a></li> 
+                    <!-- <li class="nav-item"><a class="nav-link js-scroll-trigger" style="padding-left: 0;" href="./gamepage-2.html">VR Puzzle Game</a></li>    -->
                     <li class="nav-item"><a class="nav-link js-scroll-trigger" style="padding-left: 0;" href="./appdesign.html">App Designs</a></li>
                     <li class="nav-item"><a class="nav-link js-scroll-trigger" style="padding-left: 0;" href="./microgames.html">Other Micro Games</a></li>
                     <!-- <li class="nav-item"><a class="nav-link js-scroll-trigger" style="padding-left: 0;" href="./otherworks.html">Other Works</a></li> -->
@@ -54,8 +54,12 @@
         <!-- Page Content-->
         <div>  
              <!-- game1-->
+             <div class="floating-menu list-group"  id="blogList" role="tablist">
+                <a class="list-group-item list-group-item-action active" data-toggle="list" href="#demo1" role="tab">[2021] Horror Maze</a>
+                <a class="list-group-item list-group-item-action" data-toggle="list" href="#demo2" role="tab">[2020] VR Puzzle Game</a> 
+            </div>
              <section class="resume-section">
-                <div class="resume-section-content">
+                <div class="tab-pane active" id="demo1" role="tabpanel">
                     <h2 class="mb-5">[2021] Horror Maze</h2>
                     <div class="flex-grow-1">
                         <p>by Kaimin Liu & Xueyan Zhang</p>
@@ -186,6 +190,82 @@
                     
                     
                     
+                </div>
+            </section>
+            <section class="resume-section" id="game2">
+                <div class="tab-pane active" id="demo2" role="tabpanel">
+                    <h2 class="mb-5">[2020] VR Puzzle Game</h2>
+                    <div class="flex-grow-1">
+                        <p>by Kaimin Liu & Xueyan Zhang</p>
+                        <p>Kaimin is programmer who works for the main game logic as well as some fight system, and I did the graphic part.</p>
+                    </div>
+                    <div class="listGrid mb-5">
+                        <div id="demo2" class="grid-pick carousel slide" data-ride="carousel">
+                            <!-- 指示符 -->
+                            <ul class="carousel-indicators">
+                                <li data-target="#demo2" data-slide-to="0" class="active"></li>
+                                <li data-target="#demo2" data-slide-to="1"></li>
+                            </ul>
+                            <!-- 轮播图片 -->
+                            <div class="carousel-inner">
+                                <div class="carousel-item active">
+                                    <a href=""><img src="./assets/img/webq/vr1.webp" style="border-radius: 30px; padding: 10px;"></a>
+                                    <span class="card-modified"> </span>
+                                </div>
+                                <div class="carousel-item">
+                                    <a href=""><img src="./assets/img/webq/vr2.webp" style="border-radius: 30px; padding: 10px;"></a>
+                                    <span class="card-modified"> </span>
+                                </div>
+                            </div>
+                            <!-- 左右切换按钮 -->
+                            <div>
+                                <a class="carousel-control-prev " href="#demo2" style="bottom: 200px;" data-slide="prev">
+                                    <span class="carousel-control-prev-icon"></span>
+                                </a>
+                                <a class="carousel-control-next " href="#demo2" style="bottom: 200px;" data-slide="next">
+                                    <span class="carousel-control-next-icon"></span>
+                                </a>
+                            </div>
+                             <div class="text-float">
+                                <h3 class="font-special">Game Screenshots</h3>
+                                <p class="sub-heading" style="text-transform: uppercase;">VR device: Oculus Rift</p>
+                            </div> 
+                        </div>
+                    </div>
+                    <h3 class="mt-5 mb-5">Shader Features: ShaderGraph (HDRP)</h3>
+                    
+                    <h4>Metals:</h4>
+                    <div class="row list-group-horizontal mt-2 mb-2 ml-1">
+                        <img width="200" class="list-unstyled mr-3 border-r" src="assets/img/webq/metal1.webp" alt="" >
+                        <img width="200" class="list-unstyled mr-3 border-r" src="assets/img/webq/metal2.webp" alt="" >
+                        <img width="200" class="list-unstyled mr-3 border-r" src="assets/img/webq/metal3.webp" alt="" >
+                    </ul>
+                    </div>
+
+                    <h4>Ceramics:</h4>
+                    <div class="row list-group-horizontal mt-2 mb-2 ml-1">
+                        <img width="200" class="list-unstyled mr-3 border-r" src="assets/img/webq/ceramic1.webp" alt="" />
+                        <img width="200" class="list-unstyled mr-3 border-r" src="assets/img/webq/ceramic2.webp" alt="" />
+                        <img width="200" class="list-unstyled mr-3 border-r" src="assets/img/webq/ceramic3.webp" alt="" />
+                    </div>
+                    
+                    <h4>Fire:</h4>
+                    <div class="row list-group-horizontal mt-2 mb-2 ml-1">
+                        <img  width="200" class="list-unstyled mr-3 border-r" src="./assets/img/webq/rune-min.webp" alt="">
+                        <img  width="200" class="list-unstyled mr-3 border-r" src="./assets/img/webq/candlefire.webp" alt="">
+                    </div>
+                  
+                    <h4>Magics:</h4>
+                    <div class="row list-group-horizontal mt-2 mb-2 ml-1">
+                        <img width="250" class="list-unstyled mr-3 border-r" src="./assets/img/webq/magic-min.webp" alt="">
+                        <img class="list-unstyled mr-3 border-r" src="./assets/img/webq/magic1-min.webp" alt="">
+                    </div>
+                   
+                    <h4>Other:</h4>
+                    <div class="mt-2 mb-2 ml-1">
+                        <li class="list-unstyled" ><p>Figures which can only be seen from specific angles</p></li>
+                        <li class="list-unstyled" ><img  width="300" class="border-r" src="./assets/img/webq/image2-min.webp" alt=""></li>
+                    </div>
                 </div>
             </section>
             <hr class="m-0" />
